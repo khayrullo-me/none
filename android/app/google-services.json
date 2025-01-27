@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "192652915310",
+    "project_id": "math-bfd07",
+    "storage_bucket": "math-bfd07.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192652915310:android:1e00d311942efee34c6c7f",
+        "android_client_info": {
+          "package_name": "org.gozy_tech.learn_math_with_mee.ai_matematik"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXUkqS0LWOFx9__EXTEv6DPHxVwy9sCDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

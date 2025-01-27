@@ -1,0 +1,31 @@
+buildscript {
+    repositories {
+        google() // Google repository'ni qo'shish
+        mavenCentral() // Maven repository'ni qo'shish
+    }
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle:8.3.0' // AGP-ni 8.2.1 yoki undan yuqori versiyaga yangilang
+//        classpath 'com.google.gms:google-services:4.4.2' // Google Services Gradle plaginining versiyasi
+//    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.2' // Yangilangan AGP
+    }
+}
+
+allprojects {
+    repositories {
+        google() // Google repository
+        mavenCentral() // Maven repository
+    }
+}
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
