@@ -17,6 +17,4 @@ class AuthState {
     );
   }
 
-  @override
-  List<Object?> get props => [];
 }

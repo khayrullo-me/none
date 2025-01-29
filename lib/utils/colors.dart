@@ -16,7 +16,7 @@ class ColorHelper {
   static const Color textColorDark = Color(0xffedede9);
 
   //background
-  static const Color scaffoldBackgroundDarkColor = Color(0xff022932);
+  static  Color scaffoldBackgroundDarkColor = Color(0xff022932);
   static const Color scaffoldBackgroundLightColor = Color(0xffefefee);
   //icons
   static const Color iconDark = Color(0xfff5f5f7);
